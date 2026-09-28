@@ -1,0 +1,20 @@
+{
+  "budget": 3,
+  "size": 2,
+  "bad_key_code": "E_BAD_KEY",
+  "dup_code": "E_DUP_KEY",
+  "none_code": "E_NONE",
+  "no_key_code": "E_NO_KEY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "active": [], "frozen": [], "sealed": [], "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "key": "a" },
+    { "id": 2, "kind": "put", "key": "b" },
+    { "id": 3, "kind": "put", "key": "c" },
+    { "id": 4, "kind": "put", "key": "d" },
+    { "id": 5, "kind": "seal" },
+    { "id": 6, "kind": "put", "key": "e" },
+    { "id": 7, "kind": "get", "key": "b" },
+    { "id": 8, "kind": "get", "key": "e" }
+  ]
+}
